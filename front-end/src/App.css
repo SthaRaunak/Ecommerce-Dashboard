@@ -25,6 +25,26 @@
   background-color: brown;
 }
 
+.inputBox{
+  display: block;
+  margin: 25px 0px;
+  padding: 8px;
+  width: 320px;
+  border: 2px solid brown;
+}
+.signUp{
+  margin-left: 40%;
+  margin-top: 10%;
+}
+.signUp button{
+  padding: 8px 134px;
+  background-color: brown;
+  color: white;
+  border: 2px solid rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
