@@ -1,6 +1,28 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
 .navItems li{
   display: inline-block;
   padding: 10px;
+
+}
+.navItems{
+  background: brown;
+  padding: 10px;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  padding: 20px;
+  color:white;
+  width: 100%;
+  background-color: brown;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -8,7 +30,11 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.navItems li a{
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
