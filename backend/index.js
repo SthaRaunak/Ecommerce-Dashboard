@@ -8,11 +8,11 @@ app.use(express.json());
 
 app.use(cors())
 
-app.post('/signup',async(req,res)=>{
+app.post('/signup', async (req, res) => {
     let user = new User(req.body);
     let result = await user.save();
     res.send(result);
 })
 
 
-app.listen(4000)
+app.listen(4000);
