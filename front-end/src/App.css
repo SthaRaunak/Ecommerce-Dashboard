@@ -78,3 +78,15 @@
     transform: rotate(360deg);
   }
 }
+
+.login{
+  margin-left: 40%;
+  margin-top: 10%;
+}
+.login button{
+   padding: 8px 140px;
+  background-color: brown;
+  color: white;
+  border: 2px solid rgb(0, 0, 0);
+  cursor: pointer;
+}
